@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SP Calculator</title>
+    <link rel="stylesheet" href="assets/CSS Pages/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <!-- <p>This project make by "@Shashank_S_Pandey (technicalmastersp)"</p>
+        <p>Connect with me on LinkedIn @"https://www.linkedin.com/in/technicalmastersp/"</p>
+        <p>Connect with me on GitHub @"https://github.com/technicalmastersp/"</p> -->
+    </header>
     
+    <main>
+        <div class="absolute">
+            <div id="detailsBtn" onclick="dtls()">?</div>
+            <div id="details"><p><b>This Calculator is Developed by : <a class="linkedin" href="https://www.linkedin.com/in/technicalmastersp/" target="_blank">@TechnicalMasterSP</a>.</b><br/><br/>AC = Clear Type Display and Result Display.<br/>CH = Clear History Display.<br/>P<span>.H</span> = Print this page.</p></div>    
+        </div>
+        <div class="flex">
+            <div class="calculator">
+                <div class="displayBox">
+                    <div class="historyDisplay"><textarea name="" readonly id="his" placeholder="Developed by SP"></textarea></div>
+                    <div class="runDisplay flex">
+                        <input type="text" id="display" readonly placeholder="0">
+                        <input type="text" id="resDisplay" readonly>
+                    </div>
+                </div>
+                <div class="buttonBox">
+                    <div class="button grid">
+                        <div class="btn flex rColor clrHover" onclick="clearDisplay ()">AC</div>
+                        <div class="btn flex rColor clrHover" onclick="document.getElementById('his').value = ''; ">CH</div>
+                        <div class="btn flex" onclick="backspace()" ><i class="material-icons">backspace</i></div>
+                        <div class="btn flex" onclick="appendToDisplay('/')">/</div>
+                        <div class="btn flex" onclick="appendToDisplay('1')">1</div>
+                        <div class="btn flex" onclick="appendToDisplay('2')">2</div>
+                        <div class="btn flex" onclick="appendToDisplay('3')">3</div>
+                        <div class="btn flex" onclick="appendToDisplay('*')">x</div>
+                        <div class="btn flex" onclick="appendToDisplay('4')">4</div>
+                        <div class="btn flex" onclick="appendToDisplay('5')">5</div>
+                        <div class="btn flex" onclick="appendToDisplay('6')">6</div>
+                        <div class="btn flex" onclick="appendToDisplay('-')">-</div>
+                        <div class="btn flex" onclick="appendToDisplay('7')">7</div>
+                        <div class="btn flex" onclick="appendToDisplay('8')">8</div>
+                        <div class="btn flex" onclick="appendToDisplay('9')">9</div>
+                        <div class="btn flex" onclick="appendToDisplay('+')">+</div>
+                        <div class="btn flex" onclick="calculate(), saveHistory(), printHis()">P</div>
+                        <div class="btn flex" onclick="appendToDisplay('0')">0</div>
+                        <div class="btn flex" onclick="appendToDisplay('.')">.</div>
+                        <div class="btn flex gColor clrHover" onclick="calculate(), saveHistory()">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 </body>
+<script src="assets/JS Pages/script.js"></script>
 </html>
