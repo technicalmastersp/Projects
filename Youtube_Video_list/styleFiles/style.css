@@ -1,9 +1,57 @@
 *{
     padding: 0;
     margin: 0;
+    font-size: 16px;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Create Custom library   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.flex{
+    display: flex;
+}
+.flexAi{
+    display: flex;
+    align-items: center;
+}
+.flexJc{
+    display: flex;
+    justify-content: center;
+}
+.flexFull{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   End Custom library   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Start Header Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+header{
+    background-color: #5b81a0;
 }
 nav{
-    /* background-color: aqua; */
-    margin: 10px 0;
     padding: 0px 15px;
+    height: 50px;
 }
+ul{
+    display: flex;
+    gap: 0 20px;
+    list-style: none; 
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+li:hover{
+    transform: scaley(1.2);
+}
+li a:hover{
+    color: #00ff00;
+    transition-duration: 0.2s;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   End Header Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
