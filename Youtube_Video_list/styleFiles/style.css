@@ -55,3 +55,61 @@ li a:hover{
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   End Header Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Start Main Styling   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mainOpen{
+    margin: 7px 0 0 10px;
+    /* background-color: #00ff00; */
+}
+.asideContainer{
+    width: 360px;
+    height: 500px;
+    margin-right: 10px;
+    background: linear-gradient(0.5turn, #3f87a6, #ffffff);
+    border-radius: 10px;
+}
+.cardContainer{
+    background-color: pink;
+    /* max-width: 75vw; */
+    height: 150px;
+    padding: 10px;
+}
+.card{
+    background-color: #00ff00;
+    height: 106px;
+    width: 90%;
+    border-radius: 8px;
+}
+.numbering{
+    width: 36px;
+    background-color: #5b81a0;
+}
+.thumblain{
+    height: 90px;
+    width: 160px;
+    margin: auto 0;
+    border-radius: 5px;
+}
+.thumblain img{
+    height: 100%;
+}
+.videoDetails{
+    /* background-color: #ffffff; */
+    padding: 2px 0 0 10px;
+}
+.title{
+    height: 44px;
+    font-size: 1.25rem;
+}
+.otherInformation{
+    height: 18px;
+}
+.otherI{
+    font-size: 0.75rem;
+
+}
+.card:hover{
+    outline: 1px solid gray;
+    background-color: #5b81a0 !important;
+}
