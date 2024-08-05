@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    background-color: #4e4d4d;
+}
+.fBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainOpen{
+    flex-direction: row;
+    margin: 10px;
+    height: 95vh; 
+}
+.container{
+    width: 700px;
+    background-color: #feaf66;
+    border: 2px solid #ff0000;
+    border-radius: 25% 44% 25% 55% / 60% 50% 50% 50%;
+    flex-direction: column;
+    padding: 100px;
+    gap: 50px;
+}
+.typeBox{
+    background-color: #0000ff;
+    outline: none;
+    border: 0px solid;
+    border-radius: 10px 15px 10px 15px;
+    height: 40px;
+    font-size: 24px;
+    padding-left: 10px;
+    color: #ffc0cb;
+}
+.radioBox{
+    flex-direction: column;
+    align-items: flex-start !important;
+    padding-left: 10px;
+}
+input{
+    text-transform: uppercase;
+}
+.heart{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px;
+    position: relative;
+    transform:rotate(45deg);
+}
+
+.heart::after,
+.heart::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.heart::after {
+    top: -50px;
+}
+.heart::before{
+    left: -50px;
+}
+button{
+    padding: 5px 20px;
+    font-size: 25px;
+    border-radius: 20px 10px;
+    background-color: #ff00bf;
+    margin-top: 10px;
+    user-select: none;
+}
+button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button:hover{
+    background-color: #ff46d4;
+}
+button:active{
+    background-color: #00ff62;
+}

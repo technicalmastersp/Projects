@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body{
+    background-color: #4e4d4d;
+}
+.fBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+    margin-top: 25px;
+}
