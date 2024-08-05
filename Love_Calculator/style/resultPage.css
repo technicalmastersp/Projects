@@ -11,6 +11,43 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.container{
+    width: 95vw;
+    flex-direction: column;
+    row-gap: 35px;
+}
 .img img{
     margin-top: 25px;
+}
+.textDiv{
+    font-size: 32px;
+    color: #ffffff;
+}
+.bothName{
+    justify-content: space-between;
+}
+.fName{
+    text-align: right;
+}
+.fName, .sName{
+    width: 350px;
+}
+button{
+    margin: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ff0000;
+    border-radius: 20px 15px;
+    box-sizing: border-box !important;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #c9c3c3;
+}
+button:active{
+    border: 1px solid #7700ff;
+    transform: scale(1.02,1.02);
+    background-color: #ff0000;
+    color: #0000ff;
 }

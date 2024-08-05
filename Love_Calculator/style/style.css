@@ -11,10 +11,19 @@ body{
     justify-content: center;
     align-items: center;
 }
+main{
+    position: relative;
+}
 .mainOpen{
     flex-direction: row;
     margin: 10px;
     height: 95vh; 
+}
+.version1{
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+    top: 10px;
 }
 .container{
     width: 700px;
