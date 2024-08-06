@@ -12,6 +12,10 @@ function per(){
 
 // ----------------------------------------  For create a message on random no. ----------------------------------------
 
+document.getElementById('perBox').innerText = `💞 ${per()} % 💞`
+
+// ----------------------------------------  For create a message on random no. ----------------------------------------
+
 function sp(){
     const num = per()
     if(num >= 0 && num <= 12){
