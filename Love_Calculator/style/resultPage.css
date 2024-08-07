@@ -1,53 +1,71 @@
+/* ========================================  Information of Developer  =================================================
+
+This project make by "@Shashank_S_Pandey (technicalmastersp)"
+Connect with me on LinkedIn @"https://www.linkedin.com/in/technicalmastersp/"
+Connect with me on GitHub @"https://github.com/technicalmastersp/"
+
+========================================  Start CSS Code  ================================================= */
+
 * {
-    margin: 0;
-    padding: 0;
-    user-select: none;
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
-body{
-    background-color: #4e4d4d;
+body {
+  background-color: #4e4d4d;
 }
-.fBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.fBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container{
-    width: 95vw;
-    flex-direction: column;
-    row-gap: 35px;
+.container {
+  width: 95vw;
+  flex-direction: column;
+  row-gap: 35px;
 }
-.img img{
-    margin-top: 25px;
+.img img {
+  margin-top: 25px;
 }
-.textDiv{
-    font-size: 32px;
-    color: #ffffff;
+.textDiv {
+  font-size: 32px;
+  color: #ffffff;
 }
-.bothName{
-    justify-content: space-between;
+.bothName {
+  justify-content: space-between;
 }
-.fName{
-    text-align: right;
+.fName {
+  text-align: right;
 }
-.fName, .sName{
-    width: 350px;
+.fName,
+.sName {
+  width: 350px;
+  text-transform: uppercase;
 }
-button{
-    margin: 25px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: 1px solid #ff0000;
-    border-radius: 20px 15px;
-    box-sizing: border-box !important;
-    font-weight: 600;
+
+/* ----------------------------------------  For 'Try New' Button  ---------------------------------------- */
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ff0000;
+  border-radius: 20px 15px;
+  box-sizing: border-box !important;
+  font-weight: 600;
 }
-button:hover{
-    background-color: #c9c3c3;
+button a {
+  text-decoration: none;
+  outline: none;
 }
-button:active{
-    border: 1px solid #7700ff;
-    transform: scale(1.02,1.02);
-    background-color: #ff0000;
-    color: #0000ff;
+button:hover {
+  background-color: #c9c3c3;
+}
+button:active {
+  border: 1px solid #7700ff;
+  transform: scale(1.02, 1.02);
+  background-color: #ff0000;
+  color: #0000ff;
+  border: none;
 }

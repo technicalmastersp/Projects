@@ -1,96 +1,97 @@
+/* ========================================  Information of Developer  =================================================
+
+This project make by "@Shashank_S_Pandey (technicalmastersp)"
+Connect with me on LinkedIn @"https://www.linkedin.com/in/technicalmastersp/"
+Connect with me on GitHub @"https://github.com/technicalmastersp/"
+
+========================================  Start CSS Code  ================================================= */
+
 * {
-    margin: 0;
-    padding: 0;
-    user-select: none;
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
-body{
-    background-color: #4e4d4d;
+body {
+  background-color: #4e4d4d;
 }
 .fBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-main{
-    position: relative;
+main {
+  position: relative;
 }
-.mainOpen{
-    flex-direction: row;
-    margin: 10px;
-    height: 95vh; 
-}
-.version1{
-    position: absolute;
-    font-size: 30px;
-    right: 20px;
-    top: 10px;
-}
-.container{
-    width: 700px;
-    background-color: #feaf66;
-    border: 2px solid #ff0000;
-    border-radius: 25% 44% 25% 55% / 60% 50% 50% 50%;
-    flex-direction: column;
-    padding: 100px;
-    gap: 50px;
-}
-.typeBox{
-    background-color: #0000ff;
-    outline: none;
-    border: 0px solid;
-    border-radius: 10px 15px 10px 15px;
-    height: 40px;
-    font-size: 24px;
-    padding-left: 10px;
-    color: #ffc0cb;
-}
-.radioBox{
-    flex-direction: column;
-    align-items: flex-start !important;
-    padding-left: 10px;
-}
-input{
-    text-transform: uppercase;
-}
-.heart{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    margin: 50px;
-    position: relative;
-    transform:rotate(45deg);
+.mainOpen {
+  flex-direction: column;
+  margin: 10px;
+  height: 95vh;
 }
 
-.heart::after,
-.heart::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-radius: 50%;
+/* ----------------------------------------  For Version 1  ---------------------------------------- */
+
+.version1 {
+  position: absolute;
+  font-size: 30px;
+  right: 20px;
+  top: 10px;
 }
-.heart::after {
-    top: -50px;
+
+/* ----------------------------------------  For Main Version  ---------------------------------------- */
+
+.container {
+  width: 700px;
+  background-color: #feaf66;
+  border: 2px solid #ff0000;
+  border-radius: 25% 44% 25% 55% / 60% 50% 50% 50%;
+  flex-direction: column;
+  padding: 100px;
+  gap: 50px;
 }
-.heart::before{
-    left: -50px;
+.typeBox {
+  background-color: #0000ff;
+  outline: none;
+  border: 0px solid;
+  border-radius: 10px 15px 10px 15px;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 10px;
+  color: #ffc0cb;
 }
-button{
-    padding: 5px 20px;
-    font-size: 25px;
-    border-radius: 20px 10px;
-    background-color: #ff00bf;
-    margin-top: 10px;
-    user-select: none;
+.typeBox::placeholder {
+  color: #d4d3d3c0;
+  font-size: 19px;
+  text-transform: capitalize;
 }
-button a{
-    text-decoration: none;
-    color: #ffffff;
+.radioBox {
+  flex-direction: column;
+  align-items: flex-start !important;
+  padding-left: 10px;
 }
-button:hover{
-    background-color: #ff46d4;
+input {
+  text-transform: uppercase;
 }
-button:active{
-    background-color: #00ff62;
+
+.line img {
+  height: 150px;
+  filter: hue-rotate(0deg);
+}
+
+.button {
+  padding: 5px 20px;
+  font-size: 25px;
+  border-radius: 20px 10px;
+  background-color: #ff00bf;
+  margin-top: 10px;
+  user-select: none;
+}
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.button:hover {
+  background-color: #ff46d4;
+}
+.button:active {
+  background-color: #00ff62;
 }
