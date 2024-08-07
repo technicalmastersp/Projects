@@ -1,3 +1,5 @@
+// ========================================  Start JavaScript Code  =================================================
+
 
 // ----------------------------------------  For Get Name by index.html and save to local Storage  ----------------------------------------
 
@@ -17,3 +19,6 @@ window.onload = function() {
     document.getElementById('fName').textContent = cName1 ? cName1 : 'No data found';
     document.getElementById('sName').textContent = cName2 ? cName2 : 'No data found';
 }
+
+
+// ========================================  End JavaScript Code  =================================================
