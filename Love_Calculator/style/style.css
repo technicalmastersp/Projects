@@ -40,6 +40,10 @@ main {
 
 /* ----------------------------------------  For Main Version  ---------------------------------------- */
 
+.title img{
+  height: 15rem;
+}
+
 .container {
   width: 70rem;
   background-color: #feaf66;
@@ -69,10 +73,18 @@ main {
   align-items: flex-start !important;
   padding-left: 1rem;
 }
+.radioBox{
+  gap: .5rem;
+}
+.radioBox .fBox{
+  gap: 1rem;
+}
 input {
   text-transform: uppercase;
 }
-
+.radioBox label{
+  font-size: 1.6rem;
+}
 .line img {
   height: 15rem;
   filter: hue-rotate(0deg);
@@ -89,6 +101,7 @@ input {
 .button a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 1.7rem;
 }
 .button:hover {
   background-color: #ff46d4;
@@ -97,4 +110,35 @@ input {
   background-color: #00ff62;
 }
 
-/* ----------------------------------------  For Main Version  ---------------------------------------- */
+/* ----------------------------------------  For Responsiv Styling  ---------------------------------------- */
+
+@media (min-width : 315px){
+  *{
+    font-size: 20%;
+  }
+}
+@media (min-width : 480px){
+  *{
+    font-size: 28%;
+  }
+}
+@media (min-width : 768px){
+  *{
+    font-size: 36%;
+  }
+}
+@media (min-width : 834px){
+  *{
+    font-size: 41%;
+  }
+}
+@media (min-width : 1024px){
+  *{
+    font-size: 45%;
+  }
+}
+@media (min-width : 1440px){
+  *{
+    font-size: 55%;
+  }
+}
