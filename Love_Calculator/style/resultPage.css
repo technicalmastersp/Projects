@@ -26,8 +26,11 @@ body {
   flex-direction: column;
   row-gap: 3.5rem;
 }
-.img img {
+.img {
   margin-top: 2.5rem;
+  height: 45rem;
+}
+.img img {
   height: 45rem;
 }
 .fName, .icon, .sName {
